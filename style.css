@@ -1,0 +1,135 @@
+/* General Styling */
+img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+.caption {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: -1em;
+    margin-bottom: 1em;
+}
+
+/* Masonry-style layout */
+.masonry {
+    column-count: 3;
+    column-gap: 1em;
+}
+
+/* Mosaic Grid Layout */
+.mosaic-gallery {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 10px;
+}
+
+/* Image placement for mosaic gallery */
+.mosaic-gallery img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.mosaic-gallery .img-1 {
+    grid-column: span 8;
+    grid-row: span 2;
+}
+
+.mosaic-gallery .img-2 {
+    grid-column: span 4;
+    grid-row: span 2;
+}
+
+.mosaic-gallery .img-3,
+.mosaic-gallery .img-4,
+.mosaic-gallery .img-5 {
+    grid-column: span 4;
+}
+
+.mosaic-gallery .img-6,
+.mosaic-gallery .img-7 {
+    grid-column: span 6;
+    grid-row: span 2;
+}
+
+/* Responsive adjustments for masonry and mosaic galleries */
+@media (max-width: 768px) {
+    .masonry {
+        column-count: 2;
+    }
+
+    .mosaic-gallery {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .masonry {
+        column-count: 1;
+    }
+
+    .mosaic-gallery {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .mosaic-gallery img {
+        grid-column: span 4 !important;
+        grid-row: auto !important;
+    }
+}
+
+
+
+/* Contact Section */
+.contact-section, .signin-section, .signup-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+
+.contact-card, .signin-card, .signup-card {
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+/* Social Icon Styling */
+.social-icons a, .social-signin a, .social-signup a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #333;
+    font-size: 24px;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover, .social-signin a:hover, .social-signup a:hover {
+    color: #007bff;
+}
+
+/* Custom Button Variants for Different Backgrounds */
+.btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #343A40;
+    color: white;
+}
+
+.btn:hover {
+    background-color: white;
+    border: 1px solid #343A40;
+}
+

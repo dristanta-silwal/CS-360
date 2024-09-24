@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Job Tracker Web Application",
+        "description": "This web application helps job seekers organize their job search process. Users can track application statuses and store interview notes. Developed using HTML, CSS, JavaScript, and Firebase.",
+        "link": "https://github.com/dristanta-silwal/job-tracker",
+        "btn_text": "View Project"
+    },
+    {
+        "title": "Interactive Public Health Dashboard",
+        "description": "Developed for a research project, this dashboard visualizes health data interactively. Built using Python, Plotly, and Dash, it provides statistical insights and trends through interactive charts and graphs.",
+        "link": "https://github.com/dristanta-silwal/public-health-dashboard",
+        "btn_text": "View Project"
+    },
+    {
+        "title": "Personal Portfolio Website",
+        "description": "This website showcases my projects, resume, and contact information. Built with HTML, CSS, and JavaScript, it's designed to provide an easy overview of my work for collaborators and employers.",
+        "link": "https://dristanta-portfolio.herokuapp.com/",
+        "btn_text": "View Project"
+    },
+    {
+        "title": "Machine Learning Projects",
+        "description": "These projects include a sentiment analysis model and supervised learning algorithms for classification tasks. Developed using Python, TensorFlow, and Scikit-learn.",
+        "link": "https://github.com/dristanta-silwal/ml-projects",
+        "btn_text": "View Project"
+    }
+]
