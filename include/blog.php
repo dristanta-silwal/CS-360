@@ -1,56 +1,75 @@
 <?php
-    // Hashnode API URL
-    $url = 'https://api.hashnode.com/';
+    // Hashnode GraphQL API URL
+    $url = 'https://gql.hashnode.com/';
 
-    // Define your query to get blog posts
+    // GraphQL query to fetch posts with cover images
     $query = '{
-        user(username: "Dristanta") {
-            publication {
-                posts {
-                    title
-                    brief
-                    slug
-                    coverImage
-                    dateAdded
+        publication(host: "dristantasilwal.hashnode.dev") {
+            title
+            posts(first: 10) {
+                edges {
+                    node {
+                        title
+                        brief
+                        slug
+                    }
                 }
             }
         }
     }';
 
-    // Make the GraphQL request using cURL
+    // Initialize cURL
     $curl = curl_init($url);
-    curl_setopt($curl, CURLOPT_POSTFIELDS, json_encode(['query' => $query]));
-    curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-Type:application/json'));
-    curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($curl, CURLOPT_POSTFIELDS, json_encode(['query' => $query])); // Set the GraphQL query
+    curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-Type: application/json')); // Set content type to JSON
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, true); // Return the response as a string
 
+    // Execute the cURL request
     $response = curl_exec($curl);
+
+    // Check for cURL errors
+    if ($response === false) {
+        $error = curl_error($curl);
+        echo "cURL error: " . $error;
+        exit;
+    }
+
+    // Close the cURL connection
     curl_close($curl);
 
-    // Parse the JSON response
+    // Decode the JSON response
     $result = json_decode($response, true);
 
-    // Check if the request was successful
-    if (isset($result['data']['user']['publication']['posts'])) {
-        $posts = $result['data']['user']['publication']['posts'];
+    // Check if data is available in the response
+    if (isset($result['data']['publication']['posts']['edges'])) {
+        $posts = $result['data']['publication']['posts']['edges'];
     } else {
         $posts = [];
+        echo "No posts found or an error occurred.";
+    }
+
+    // Helper function to limit words in a string
+    function limitWords($text, $limit) {
+        $words = explode(' ', $text);
+        if (count($words) > $limit) {
+            return implode(' ', array_slice($words, 0, $limit)) . '...';
+        }
+        return $text;
     }
 ?>
 
-<div class="container">
-    <h1>My Blog Posts</h1>
-    <div class="row">
-        <?php foreach ($posts as $post): ?>
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <img class="card-img-top" src="<?= $post['coverImage']; ?>" alt="Blog cover image">
-                    <div class="card-body">
-                        <h5 class="card-title"><?= $post['title']; ?></h5>
-                        <p class="card-text"><?= $post['brief']; ?></p>
-                        <a href="https://dristantasilwal.hashnode.dev/<?= $post['slug']; ?>" class="btn btn-primary" target="_blank">Read More</a>
-                    </div>
-                </div>
+<!-- Blog posts section -->
+<h1 class="text-center">Blog Posts from <?= htmlspecialchars($result['data']['publication']['title'] ?? 'My Blog'); ?></h1>
+<div class="card-deck">
+    <?php foreach ($posts as $postEdge): 
+        $post = $postEdge['node']; ?>
+        <div class="card"><div class="card-body">
+                <h5 class="card-title"><?= htmlspecialchars($post['title']); ?></h5>
+                <p class="card-text"><?= htmlspecialchars(limitWords($post['brief'], 20)); ?></p>
             </div>
-        <?php endforeach; ?>
-    </div>
+            <div class="card-footer">
+                <a href="https://dristantasilwal.hashnode.dev/<?= htmlspecialchars($post['slug']); ?>" class="btn btn-primary" target="_blank">Read More</a>
+            </div>
+        </div>
+    <?php endforeach; ?>
 </div>

@@ -131,5 +131,55 @@ img:hover {
 .btn:hover {
     background-color: white;
     border: 1px solid #343A40;
+    color: black;
 }
 
+
+
+/* css for blog.php */
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 230px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 180px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-text {
+    flex-grow: 1;
+}
+
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-deck .card {
+    flex: 1 1 calc(33% - 1rem);
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .card-deck .card {
+        flex: 1 1 calc(50% - 1rem);
+    }
+}
+
+@media (max-width: 576px) {
+    .card-deck .card {
+        flex: 1 1 100%;
+    }
+}

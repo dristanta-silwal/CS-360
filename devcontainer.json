@@ -1,0 +1,16 @@
+// installs php and other required extensions automatically when i open my codespace
+{
+    "name": "PHP Development",
+    "image": "mcr.microsoft.com/devcontainers/php:latest",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "felixfbecker.php-debug",
+          "xdebug.php-pack"
+        ]
+      }
+    },
+    "forwardPorts": [8000],
+    "postCreateCommand": "sudo apt update && sudo apt install php-mbstring php-xml"
+  }
+  

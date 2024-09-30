@@ -8,8 +8,7 @@
     <?php include 'include/header.php'; ?>
 
     <div class="container d-flex justify-content-center align-items-center" style="height: 46vh; width: 270px;">
-        <img src="images/dristanta.jpg" alt="Image of Dristanta Silwal" class="img-fluid rounded-circle"
-            style="width: 20vw;">
+        <img src="images/dristanta.jpg" alt="Image of Dristanta Silwal" class="img-fluid rounded-circle w-200 w-sm-70">
     </div>
 
 
