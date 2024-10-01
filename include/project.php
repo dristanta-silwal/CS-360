@@ -1,5 +1,5 @@
 <!-- Portfolio Projects Section -->
-<section class="container my-5">
+<section class="container my-5" style="min-height: 78vh;">
     <h2 class="text-center mb-5">My Projects</h2>
 
     <div class="row">

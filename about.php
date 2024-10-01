@@ -8,95 +8,92 @@
     <?php include 'include/header.php'; ?>
 
     <!-- Portfolio Background Section -->
-    <section class="container my-5">
-        <h2 class="text-center">My Background</h2>
+    <section class="container my-5 py-5">
+
+        <h2 class="text-center mb-4">My Background</h2>
 
         <!-- Profile Image -->
-        <div class="container d-flex justify-content-center align-items-center" style="width: 200px; height: 30vh;">
+        <div class="d-flex justify-content-center mb-5">
             <img src="images/dristanta.jpg" alt="Image of Dristanta Silwal" class="img-fluid rounded-circle"
-                style="width: 20vw;">
+                style="width: 150px; height: 150px;">
         </div>
 
-        <p>
-            Hi! I'm Dristanta Silwal, a Computer Science student at the University of Idaho. I am passionate about data
-            science, web development, and machine learning, and I continuously strive to bridge theory and practical
-            applications. My academic journey has given me hands-on experience with cloud computing, AI, and algorithms.
-        </p>
+        <div class="text-center mb-4">
+            <p class="lead">
+                Hi! I'm Dristanta Silwal, a Computer Science student at the University of Idaho. I am passionate about data
+                science, web development, and machine learning, and I continuously strive to bridge theory and practical
+                applications. My academic journey has given me hands-on experience with cloud computing, AI, and algorithms.
+            </p>
+        </div>
 
         <!-- Embed Introduction Video -->
-        <div class="text-center mb-4">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID"
-                title="Dristanta Silwal Introduction" frameborder="0" allowfullscreen></iframe>
+        <div class="embed-responsive embed-responsive-16by9 mb-5">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
         </div>
 
-        <p>Here are some key academic and professional accomplishments:</p>
 
-        <!-- Accomplishments -->
-        <ul>
-            <li>University Honors Program Undergraduate Research Grant recipient</li>
-            <li>Outstanding First-Year Student Award/Valkyries Award</li>
-            <li>Student Researcher at the University of Idaho's College of Engineering</li>
-            <li>Web Developer through freelance projects on UpWork</li>
-        </ul>
+        <!-- Accomplishments Section -->
+        <div class="mb-5">
+            <h3 class="text-center mb-4">Key Accomplishments</h3>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">University Honors Program Undergraduate Research Grant recipient</li>
+                <li class="list-group-item">Outstanding First-Year Student Award/Valkyries Award</li>
+                <li class="list-group-item">Student Researcher at the University of Idaho's College of Engineering</li>
+                <li class="list-group-item">Web Developer through freelance projects on UpWork</li>
+            </ul>
+        </div>
 
-        <!-- Project Showcase Links -->
-        <p>Some of my notable projects include:</p>
-        <ul>
-            <li><a href="https://github.com/dristanta-silwal/job-tracker" target="_blank">Job Tracker Web
-                    Application</a> – A full-stack job management system built using Django and PostgreSQL.</li>
-            <li><a href="https://github.com/dristanta-silwal/public-health-dashboard" target="_blank">Public Health
-                    Dashboard</a> – An interactive data dashboard for real-time health statistics using Python and Dash.
-            </li>
-            <li><a href="https://dristanta-portfolio.herokuapp.com/" target="_blank">Portfolio Website</a> – A personal
-                portfolio site built using HTML, CSS, and Bootstrap.</li>
-        </ul>
+        <!-- Projects Section -->
+        <div class="mb-5">
+            <h3 class="text-center mb-4">Notable Projects</h3>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><a href="https://github.com/dristanta-silwal/job-tracker" target="_blank">Job Tracker Web Application</a> – A full-stack job management system built using Django and PostgreSQL.</li>
+                <li class="list-group-item"><a href="https://github.com/dristanta-silwal/public-health-dashboard" target="_blank">Public Health Dashboard</a> – An interactive data dashboard for real-time health statistics using Python and Dash.</li>
+                <li class="list-group-item"><a href="https://dristanta-portfolio.herokuapp.com/" target="_blank">Portfolio Website</a> – A personal portfolio site built using HTML, CSS, and Bootstrap.</li>
+            </ul>
+        </div>
 
-        <!-- Leadership Roles -->
-        <p>
-            I am also involved in leadership roles in organizations like the Nepali Student Association (NSA) and Phi
-            Eta Sigma Honor Society. I coordinate events and help foster a sense of community among international
-            students. Recently, I led the organization of NSA's annual cultural festival, which was attended by over 300
-            participants.
-        </p>
+        <!-- Leadership Roles Section -->
+        <div class="mb-5">
+            <h3 class="text-center mb-4">Leadership Roles</h3>
+            <p class="text-center">
+                I am involved in leadership roles in organizations like the Nepali Student Association (NSA) and Phi Eta Sigma Honor Society.
+                Recently, I led the organization of NSA's annual cultural festival, which was attended by over 300 participants.
+            </p>
+        </div>
 
         <!-- Skills Section -->
         <div class="my-5">
-            <h3 class="text-center">Technical Skills</h3>
+            <h3 class="text-center mb-4">Technical Skills</h3>
             <div class="row text-center">
                 <div class="col-md-4">
-                    <i class="fas fa-code fa-3x"></i>
+                    <i class="fas fa-code fa-3x mb-2"></i>
                     <h4>Programming Languages</h4>
                     <p>Python, JavaScript, C, SQL</p>
                 </div>
                 <div class="col-md-4">
-                    <i class="fas fa-database fa-3x"></i>
+                    <i class="fas fa-database fa-3x mb-2"></i>
                     <h4>Data Science</h4>
                     <p>Pandas, NumPy, Scikit-learn, TensorFlow</p>
                 </div>
                 <div class="col-md-4">
-                    <i class="fas fa-cloud fa-3x"></i>
+                    <i class="fas fa-cloud fa-3x mb-2"></i>
                     <h4>Cloud & DevOps</h4>
                     <p>AWS, Docker, Heroku</p>
                 </div>
             </div>
         </div>
 
-        <!-- Future Vision -->
-        <p>
-            As I continue to expand my skill set and gain new experiences, my goal is to apply my technical knowledge to
-            real-world problems. I’m excited about the potential of machine learning and AI to positively impact
-            industries and everyday life, and I aim to contribute to this field through both academic research and
-            professional development.
-        </p>
+        <!-- Future Vision Section -->
+        <div class="text-center mb-5">
+            <p class="lead">
+                My goal is to apply my technical knowledge to real-world problems and contribute to the advancement of AI and machine learning.
+                I am excited about the future of technology and look forward to being part of innovative solutions.
+            </p>
+            <p>Feel free to check out my <a href="https://www.linkedin.com/in/dristanta-silwal/" target="_blank" class="btn btn-primary">LinkedIn</a> or <a href="https://github.com/dristanta-silwal" target="_blank" class="btn btn-dark">GitHub</a> profiles for more details about my work and skills.</p>
+        </div>
 
-        <p>
-            Feel free to check out my <a href="https://www.linkedin.com/in/dristanta-silwal/"
-                target="_blank">LinkedIn</a> or <a href="https://github.com/dristanta-silwal" target="_blank">GitHub</a>
-            profiles for more details about my work and skills.
-        </p>
     </section>
-
-
 
     <?php include 'include/footer.php'; ?>
 

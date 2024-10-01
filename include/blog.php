@@ -59,7 +59,8 @@
 ?>
 
 <!-- Blog posts section -->
-<h1 class="text-center">Blog Posts from <?= htmlspecialchars($result['data']['publication']['title'] ?? 'My Blog'); ?></h1>
+<h1 class="text-center">My Blogs</h1>
+<hr style="margin-bottom: 50px;">    
 <div class="card-deck">
     <?php foreach ($posts as $postEdge): 
         $post = $postEdge['node']; ?>

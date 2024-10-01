@@ -1,3 +1,5 @@
+
+
 /* General Styling */
 img {
     width: 100%;
@@ -182,4 +184,5 @@ img:hover {
     .card-deck .card {
         flex: 1 1 100%;
     }
-}
+} 
+
