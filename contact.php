@@ -19,8 +19,8 @@
                     <!-- Contact Information -->
                     <div class="contact-info text-center mb-4">
                         <p>Email: <a href="mailto:dristantasilwal003@gmail.com">dristantasilwal003@gmail.com</a></p>
-                        <p>Phone: +1 (512) 956-XXXX</p>
-                        <p>Location: Moscow, ID</p>
+                        <p>Phone: +1 (512) 956-aZEN</p>
+                        <p>Location: ID, USA</p>
                     </div>
 
                     <!-- Social Media Links -->
@@ -31,7 +31,7 @@
                         <a href="https://github.com/dristanta-silwal" class="btn btn-dark mx-2" target="_blank">
                             <i class="fab fa-github"></i> GitHub
                         </a>
-                        <a href="https://twitter.com/dristanta" class="btn btn-info mx-2" target="_blank">
+                        <a href="https://twitter.com/DristantaSilwal" class="btn btn-info mx-2" target="_blank">
                             <i class="fab fa-twitter"></i> Twitter
                         </a>
                     </div>

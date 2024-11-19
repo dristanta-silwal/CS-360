@@ -1,5 +1,17 @@
 [
     {
+        "title": "Grant Budget Generator",
+        "description": "This web application helps principal investigators and other person to manage grant .",
+        "link": "https://dristanta-silwal.github.io/grant-budget-generator/",
+        "btn_text": "View Project"
+    },
+    {
+        "title": "Pet Management System",
+        "description": "This web application is a part of CS 360 class where we have to create a system where we can keep record pets of all over the world.",
+        "link": "https://github.com/dristanta-silwal/pet-management-system",
+        "btn_text": "View Project"
+    },
+    {
         "title": "Job Tracker Web Application",
         "description": "This web application helps job seekers organize their job search process. Users can track application statuses and store interview notes. Developed using HTML, CSS, JavaScript, and Firebase.",
         "link": "https://github.com/dristanta-silwal/job-tracker",
@@ -18,9 +30,57 @@
         "btn_text": "View Project"
     },
     {
-        "title": "Machine Learning Projects",
-        "description": "These projects include a sentiment analysis model and supervised learning algorithms for classification tasks. Developed using Python, TensorFlow, and Scikit-learn.",
-        "link": "https://github.com/dristanta-silwal/ml-projects",
+        "title": "Codedamm Projects",
+        "description": "This project is a collection of codedamm projects which was created while learning from Codedamm.",
+        "link": "https://dristanta-silwal.github.io/codedamm_projects/",
+        "btn_text": "View Project"
+    },
+    {
+        "title": "Typing Game",
+        "description": "A fun and interactive game designed to improve typing speed and accuracy. Test your skills and compete for high scores. Built using JavaScript and modern web technologies.",
+        "link": "https://dristanta-silwal.github.io/TypingGame/",
+        "btn_text": "View Project"
+    },
+    {
+        "title": "Markdown Previewer",
+        "description": "A handy tool to preview Markdown syntax in real-time. Simplifies writing and formatting content with instant visual feedback. Developed using React for a seamless user experience.",
+        "link": "https://dristanta-silwal.github.io/markdown-previewer/",
+        "btn_text": "View Project"
+    },
+    {
+        "title": "React Calculator",
+        "description": "A fully functional calculator built using React. Offers basic arithmetic operations with a clean and intuitive user interface. Great for quick calculations.",
+        "link": "https://dristanta-silwal.github.io/react-calculator/",
+        "btn_text": "View Project"
+    },
+    {
+        "title": "Form Validator",
+        "description": "A dynamic form validation tool to ensure input accuracy and usability. Highlights errors in real-time and improves form submission workflows. Created with HTML, CSS, and JavaScript.",
+        "link": "https://dristanta-silwal.github.io/formValidator/",
+        "btn_text": "View Project"
+    },
+    {
+        "title": "Pomodoro Clock",
+        "description": "A productivity timer inspired by the Pomodoro Technique. Helps users manage work sessions and breaks effectively. Built with JavaScript for responsive functionality.",
+        "link": "https://dristanta-silwal.github.io/pomodoro-clock/",
+        "btn_text": "View Project"
+    },
+    {
+        "title": "Random Quote Generator",
+        "description": "Generates random inspirational quotes with a click of a button. A simple and elegant tool to uplift your mood, developed using JavaScript and APIs.",
+        "link": "https://dristanta-silwal.github.io/random-quote-genterator/",
+        "btn_text": "View Project"
+    },
+    {
+        "title": "Tic Tac Toe",
+        "description": "This project was a pet project created with the purpose of learning ReactJS. Eventhough I learnt React, I couldn't fully complete this project.",
+        "link": "https://dristanta-silwal.github.io/tictactoe1/",
+        "btn_text": "View Project"
+    },
+    {
+        "title": "Chloropeth Chart",
+        "description": "This project was a part of freeCodeCamp Certification Courses. Developed using VanillaJS, it shows percentage of Bachelors graduate in that area.",
+        "link": "https://dristanta-silwal.github.io/Chloropeth-Chart/",
         "btn_text": "View Project"
     }
 ]

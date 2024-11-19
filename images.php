@@ -13,9 +13,9 @@
     <div class="container mt-5">
         <h2 class="text-center mb-4">Mosaic Image Gallery</h2>
         <div class="mosaic-gallery">
-            <img src="images/astronaut.jpeg" alt="Astronaut" class="img-1">
-            <img src="images/background_linkedin.jpg" alt="LinkedIn Background" class="img-2">
-            <img src="images/cosmos-db.jpeg" alt="Cosmos DB" class="img-3">
+            <img src="images/imc_2.jpg" alt="Astronaut" class="img-1">
+            <img src="images/cpr_card.jpg" alt="LinkedIn Background" class="img-2">
+            <img src="images/imc_1.jpg" alt="Cosmos DB" class="img-3">
             <img src="images/dristanta_ipo.jpg" alt="Dristanta IPO" class="img-4">
             <img src="images/elem_AI_hels.png" alt="AI in Helsinki" class="img-5">
             <img src="images/logo_letters.jpg" alt="Logo Letters" class="img-6">

@@ -27,9 +27,13 @@
         </div>
 
         <!-- Embed Introduction Video -->
-        <div class="embed-responsive embed-responsive-16by9 mb-5">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
-        </div>
+        <div class="sp-embed-player" data-id="cZQTeAVS49y">
+            <script src="https://go.screenpal.com/player/appearance/cZQTeAVS49y"></script>
+            <iframe width="100%" height="100%" style="border:0;" scrolling="no" src="https://go.screenpal.com/player/cZQTeAVS49y?width=100%&height=100%&ff=1&title=0" allowfullscreen="true">
+            </iframe>
+            </div>
+
+            <br>
 
 
         <!-- Accomplishments Section -->
@@ -38,6 +42,7 @@
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">University Honors Program Undergraduate Research Grant recipient</li>
                 <li class="list-group-item">Outstanding First-Year Student Award/Valkyries Award</li>
+                <li class="list-group-item">Idaho Mining Association Scholarship</li>
                 <li class="list-group-item">Student Researcher at the University of Idaho's College of Engineering</li>
                 <li class="list-group-item">Web Developer through freelance projects on UpWork</li>
             </ul>
@@ -45,11 +50,12 @@
 
         <!-- Projects Section -->
         <div class="mb-5">
-            <h3 class="text-center mb-4">Notable Projects</h3>
+            <h3 class="text-center mb-4">My Notable Project</h3>
             <ul class="list-group list-group-flush">
-                <li class="list-group-item"><a href="https://github.com/dristanta-silwal/job-tracker" target="_blank">Job Tracker Web Application</a> – A full-stack job management system built using Django and PostgreSQL.</li>
-                <li class="list-group-item"><a href="https://github.com/dristanta-silwal/public-health-dashboard" target="_blank">Public Health Dashboard</a> – An interactive data dashboard for real-time health statistics using Python and Dash.</li>
-                <li class="list-group-item"><a href="https://dristanta-portfolio.herokuapp.com/" target="_blank">Portfolio Website</a> – A personal portfolio site built using HTML, CSS, and Bootstrap.</li>
+                <li class="list-group-item">
+                    <a href="https://github.com/dristanta-silwal/grant-budget-management-system" target="_blank">Grant Budget Management System</a>
+                     – A full-stack grant management system built using PHP and MySQL.
+                </li>
             </ul>
         </div>
 
@@ -57,7 +63,7 @@
         <div class="mb-5">
             <h3 class="text-center mb-4">Leadership Roles</h3>
             <p class="text-center">
-                I am involved in leadership roles in organizations like the Nepali Student Association (NSA) and Phi Eta Sigma Honor Society.
+                I am involved in leadership roles in organizations like the <a href="https://webpages.uidaho.edu/nepali/" target="_blank">Nepali Student Association (NSA)</a> and Phi Eta Sigma Honor Society.
                 Recently, I led the organization of NSA's annual cultural festival, which was attended by over 300 participants.
             </p>
         </div>
