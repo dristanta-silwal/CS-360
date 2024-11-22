@@ -2,7 +2,8 @@
     {
         "title": "Grant Budget Generator",
         "description": "This web application helps principal investigators and other person to manage grant .",
-        "link": "https://gbms-v2-2a5c07812841.herokuapp.com/login.php"
+        "link": "https://gbms-v2-2a5c07812841.herokuapp.com/login.php",
+        "btn_text":"View Project"
     },
     {
         "title": "Pet Management System",
