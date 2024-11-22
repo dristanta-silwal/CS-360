@@ -17,6 +17,12 @@
                     <a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'portfolio.php' ? 'active' : ''; ?>" href="portfolio.php">Portfolio</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'resume.php' ? 'active' : ''; ?>" href="resume.php">My Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'resume_editor.php' ? 'active' : ''; ?>" href="resume_editor.php">Resume Editor</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'blogs.php' ? 'active' : ''; ?>" href="blogs.php">My blogs</a>
                 </li>
                 <li class="nav-item">

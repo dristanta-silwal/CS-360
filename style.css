@@ -186,3 +186,23 @@ img:hover {
     }
 } 
 
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 1rem;
+}
+
+#resumePreview {
+    margin: 0 auto;
+    padding: 1rem;
+    box-sizing: border-box;
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    min-height: 100%;
+}

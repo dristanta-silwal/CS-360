@@ -20,21 +20,24 @@
 
         <div class="text-center mb-4">
             <p class="lead">
-                Hi! I'm Dristanta Silwal, a Computer Science student at the University of Idaho. I am passionate about data
+                Hi! I'm Dristanta Silwal, a Computer Science student at the University of Idaho. I am passionate about
+                data
                 science, web development, and machine learning, and I continuously strive to bridge theory and practical
-                applications. My academic journey has given me hands-on experience with cloud computing, AI, and algorithms.
+                applications. My academic journey has given me hands-on experience with cloud computing, AI, and
+                algorithms.
             </p>
         </div>
 
         <!-- Embed Introduction Video -->
         <div class="sp-embed-player" data-id="cZQTeAVS49y">
             <script src="https://go.screenpal.com/player/appearance/cZQTeAVS49y"></script>
-            <iframe width="100%" height="100%" style="border:0;" scrolling="no" src="https://go.screenpal.com/player/cZQTeAVS49y?width=100%&height=100%&ff=1&title=0" allowfullscreen="true">
+            <iframe width="100%" height="100%" style="border:0;" scrolling="no"
+                src="https://go.screenpal.com/player/cZQTeAVS49y?width=100%&height=100%&ff=1&title=0"
+                allowfullscreen="true">
             </iframe>
-            </div>
+        </div>
 
-            <br>
-
+        <br>
 
         <!-- Accomplishments Section -->
         <div class="mb-5">
@@ -53,8 +56,9 @@
             <h3 class="text-center mb-4">My Notable Project</h3>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">
-                    <a href="https://github.com/dristanta-silwal/grant-budget-management-system" target="_blank">Grant Budget Management System</a>
-                     – A full-stack grant management system built using PHP and MySQL.
+                    <a href="https://github.com/dristanta-silwal/grant-budget-management-system" target="_blank">Grant
+                        Budget Management System</a>
+                    – A full-stack grant management system built using PHP and MySQL.
                 </li>
             </ul>
         </div>
@@ -63,8 +67,11 @@
         <div class="mb-5">
             <h3 class="text-center mb-4">Leadership Roles</h3>
             <p class="text-center">
-                I am involved in leadership roles in organizations like the <a href="https://webpages.uidaho.edu/nepali/" target="_blank">Nepali Student Association (NSA)</a> and Phi Eta Sigma Honor Society.
-                Recently, I led the organization of NSA's annual cultural festival, which was attended by over 300 participants.
+                I am involved in leadership roles in organizations like the <a
+                    href="https://webpages.uidaho.edu/nepali/" target="_blank">Nepali Student Association (NSA)</a> and
+                Phi Eta Sigma Honor Society.
+                Recently, I led the organization of NSA's annual cultural festival, which was attended by over 300
+                participants.
             </p>
         </div>
 
@@ -93,10 +100,14 @@
         <!-- Future Vision Section -->
         <div class="text-center mb-5">
             <p class="lead">
-                My goal is to apply my technical knowledge to real-world problems and contribute to the advancement of AI and machine learning.
+                My goal is to apply my technical knowledge to real-world problems and contribute to the advancement of
+                AI and machine learning.
                 I am excited about the future of technology and look forward to being part of innovative solutions.
             </p>
-            <p>Feel free to check out my <a href="https://www.linkedin.com/in/dristanta-silwal/" target="_blank" class="btn btn-primary">LinkedIn</a> or <a href="https://github.com/dristanta-silwal" target="_blank" class="btn btn-dark">GitHub</a> profiles for more details about my work and skills.</p>
+            <p>Feel free to check out my <a href="https://www.linkedin.com/in/dristanta-silwal/" target="_blank"
+                    class="btn btn-primary">LinkedIn</a> or <a href="https://github.com/dristanta-silwal"
+                    target="_blank" class="btn btn-dark">GitHub</a> profiles for more details about my work and skills.
+            </p>
         </div>
 
     </section>
