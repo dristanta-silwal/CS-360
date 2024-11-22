@@ -2,8 +2,7 @@
     {
         "title": "Grant Budget Generator",
         "description": "This web application helps principal investigators and other person to manage grant .",
-        "link": "https://dristanta-silwal.github.io/grant-budget-generator/",
-        "btn_text": "View Project"
+        "link": "https://gbms-v2-2a5c07812841.herokuapp.com/login.php"
     },
     {
         "title": "Pet Management System",
