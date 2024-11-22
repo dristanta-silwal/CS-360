@@ -1,9 +1,6 @@
-Here’s a sample `README.md` for your portfolio website repository:
+# Portfolio Website of Dristanta Silwal
 
-```markdown
-# Portfolio Website for Dristanta Silwal
-
-This repository contains the source code for the personal portfolio website of **Dristanta Silwal**, showcasing his skills, projects, and accomplishments. The website is developed using **PHP** and hosted on **Heroku**.
+This repository contains the source code for my [portfolio website](https://dristantasilwal.com.np), showcasing his skills, projects, and accomplishments. The website is developed using **PHP** and hosted on **Heroku**.
 
 ---
 
@@ -45,6 +42,11 @@ The portfolio website is deployed on **Heroku** and accessible at:
 |-- contact.php    # Contact page
 |-- about.php      # About page
 |-- projects.php   # Projects page
+|--
+|--
+|--      other pages
+|--
+|--
 |-- README.md      # Project documentation
 ```
 
@@ -69,17 +71,17 @@ The portfolio website is deployed on **Heroku** and accessible at:
 
 4. **Deploy to Heroku**:
    - Log in to Heroku CLI:
-     ```bash
-     heroku login
-     ```
+   ```bash
+   heroku login
+   ```
    - Create a new Heroku app:
-     ```bash
-     heroku create
-     ```
+   ```bash
+   heroku create
+   ```
    - Push to Heroku:
-     ```bash
-     git push heroku main
-     ```
+   ```bash
+   git push heroku main
+   ```
 
 ---
 
@@ -87,7 +89,7 @@ The portfolio website is deployed on **Heroku** and accessible at:
 
 Feel free to reach out to me for any queries or collaboration opportunities:
 
-- **Email**: [Click here](mailto:contact@dristantasilwal.com.np)
+- **Email**: [Click here](mailto:dristantasilwal003@gmail.com)
 - **LinkedIn**: [Dristanta Silwal](https://www.linkedin.com/in/dristanta-silwal)
 - **Portfolio**: [Click here](https://dristantasilwal.com.np)
 
@@ -105,4 +107,3 @@ Special thanks to the tools, libraries, and platforms that made this portfolio p
 - Heroku for hosting
 - PHP and MySQL for backend functionality
 - HTML, CSS, and JavaScript for frontend design
-```
