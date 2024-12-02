@@ -51,16 +51,16 @@
             <div class="col-md-6 mb-5">
                 <h2 class="text-center">Live Preview</h2>
                 <div id="resumePreview" class="p-3 border rounded bg-light">
-                    <h3 id="previewName" class="text-center">[Your Name]</h3>
-                    <h5 id="previewTitle" class="text-center">[Your Title]</h5>
-                    <p id="previewSummary">[Your Summary]</p>
+                    <h3 id="previewName" class="text-center">Dristanta Silwal</h3>
+                    <h5 id="previewTitle" class="text-center">Software Developer Intern</h5>
+                    <p id="previewSummary">Passionate about creating something that would be usefule for the world.</p>
                     <hr>
                     <h6>Skills</h6>
-                    <p id="previewSkills">[Your Skills]</p>
+                    <p id="previewSkills">HTML, CSS, JS, PHP, Python, GIT, GitHub, Heroku, Azure, AWS</p>
                     <h6>Experience</h6>
-                    <div id="previewExperience">[Your Experience]</div>
+                    <div id="previewExperience">Software Developer Intern</div>
                     <h6>Education</h6>
-                    <div id="previewEducation">[Your Education]</div>
+                    <div id="previewEducation">University of Idaho</div>
                 </div>
             </div>
         </div>
