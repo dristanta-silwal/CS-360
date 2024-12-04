@@ -29,6 +29,9 @@
                     <a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'images.php' ? 'active' : ''; ?>" href="images.php">Images</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'calendar.php' ? 'active' : ''; ?>" href="calendar.php">Calendar</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'contact.php' ? 'active' : ''; ?>" href="contact.php">Contact</a>
                 </li>
             </ul>
