@@ -60,6 +60,9 @@
 
 <!-- Blog posts section -->
 <h1 class="text-center">My Blogs</h1>
+<script async src="https://cse.google.com/cse.js?cx=749bafa87e1634a79">
+</script>
+<div class="gcse-search"></div>
 <hr style="margin-bottom: 50px;">    
 <div class="card-deck">
     <?php foreach ($posts as $postEdge): 
