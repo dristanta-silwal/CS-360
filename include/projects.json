@@ -6,6 +6,12 @@
         "btn_text":"View Project"
     },
     {
+        "title": "Stock Recommender",
+        "description": "allows users to explore stock data, generate interactive charts, and perform technical analysis for selected stock tickers",
+        "link": "https://stockrecommender.streamlit.app/",
+        "btn_text":"View Project"
+    },
+    {
         "title": "Pet Management System",
         "description": "This web application is a part of CS 360 class where we have to create a system where we can keep record pets of all over the world.",
         "link": "https://github.com/dristanta-silwal/pet-management-system",
