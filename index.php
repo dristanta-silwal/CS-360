@@ -5,24 +5,17 @@
 
 
 <body style="margin: 0; height: 100vh; overflow: hidden; position: relative; background: black;">
-
-    <header style="position: relative; z-index: 10;">
-        <?php include 'include/header.php'; ?>
-    </header>
     <style>
-        @media (min-width: 990px) {
-            #spaceCanvas {
-                width: 100%;
-                height: 100%;
-            }
-        }
-
-        @media (max-width: 990px) {
-            #spaceCanvas {
+        @media screen and (max-width: 990px) {
+            #change-nav {
                 display: none;
             }
         }
     </style>
+    <header id="change-nav" style="position: relative; z-index: 10;">
+        <?php include 'include/header.php'; ?>
+    </header>
+
     <canvas id="spaceCanvas" style="position: absolute; top: 0; left: 0;"></canvas>
 
     <!-- Main Section -->
@@ -55,6 +48,10 @@
                         <a href="https://github.com/dristanta-silwal" class="btn btn-dark mx-2" target="_blank"
                             style="position: relative; z-index: 10;">
                             <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="about.php" class="btn btn-dark mx-2" target="_blank"
+                            style="position: relative; z-index: 10;">
+                            <i class="fab fa-houzz"></i> Find More
                         </a>
                     </div>
                 </section>
