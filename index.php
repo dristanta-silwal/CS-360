@@ -9,7 +9,20 @@
     <header style="position: relative; z-index: 10;">
         <?php include 'include/header.php'; ?>
     </header>
+    <style>
+        @media (min-width: 990px) {
+            #spaceCanvas {
+                width: 100%;
+                height: 100%;
+            }
+        }
 
+        @media (max-width: 990px) {
+            #spaceCanvas {
+                display: none;
+            }
+        }
+    </style>
     <canvas id="spaceCanvas" style="position: absolute; top: 0; left: 0;"></canvas>
 
     <!-- Main Section -->
