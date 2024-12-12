@@ -24,9 +24,9 @@
             <section class="shadow-lg text-center hover-card" style="max-width: 900px; width: 100%;">
                 <header class="bg-transparent py-4">
                     <figure class="text-center">
-                        <img src="images/dristanta.jpg" alt="Image of Dristanta Silwal"
+                        <img src="images/profile.jpg" alt="Image of Dristanta Silwal"
                             class="img-fluid rounded-circle mx-auto"
-                            style="width: 150px; height: 150px; position: relative; z-index: 10;">
+                            style="width: 250px; height: 250px; position: relative; z-index: 10;">
                         <figcaption>
                             <h3 class="mt-3">Dristanta Silwal</h3>
                             <p>Computer Science Student | Future Data Scientist | Web Developer</p>
