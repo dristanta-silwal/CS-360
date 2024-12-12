@@ -26,7 +26,7 @@
                     <figure class="text-center">
                         <img src="images/profile.jpg" alt="Image of Dristanta Silwal"
                             class="img-fluid rounded-circle mx-auto"
-                            style="width: 250px; height: 250px; position: relative; z-index: 10;">
+                            style="width: 200px; height: 200px; position: relative; z-index: 10;">
                         <figcaption>
                             <h3 class="mt-3">Dristanta Silwal</h3>
                             <p>Computer Science Student | Future Data Scientist | Web Developer</p>
