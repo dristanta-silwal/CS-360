@@ -34,12 +34,18 @@
                     </figure>
                 </header>
 
+                <div class="d-flex justify-content-center mb-4">
+                    <a href="about.php" class="btn btn-dark mx-2"
+                        style="position: relative; z-index: 10;">
+                        <i class="fab fa-houzz"></i> Click here to know more
+                    </a>
+                </div>
+
                 <section class="p-4">
                     <p class="mb-4">
                         Passionate about data science, web development, and machine learning, I am a Computer Science
                         student continuously striving to bridge theory and practical applications.
                     </p>
-
                     <div class="d-flex justify-content-center mb-4">
                         <a href="https://www.linkedin.com/in/dristanta-silwal/" class="btn btn-primary mx-2"
                             target="_blank" style="position: relative; z-index: 10;">
@@ -49,11 +55,8 @@
                             style="position: relative; z-index: 10;">
                             <i class="fab fa-github"></i> GitHub
                         </a>
-                        <a href="about.php" class="btn btn-dark mx-2" target="_blank"
-                            style="position: relative; z-index: 10;">
-                            <i class="fab fa-houzz"></i> Find More
-                        </a>
                     </div>
+
                 </section>
             </section>
         </article>
