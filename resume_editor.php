@@ -41,6 +41,10 @@
                         <div id="experienceEditor" class="form-control" style="height: 150px;"></div>
                     </div>
                     <div class="form-group">
+                        <label for="project">Projects</label>
+                        <div id="projectEditor" class="form-control" style="height: 150px;"></div>
+                    </div>
+                    <div class="form-group">
                         <label for="education">Education</label>
                         <div id="educationEditor" class="form-control" style="height: 150px;"></div>
                     </div>
@@ -48,7 +52,7 @@
             </div>
 
             <!-- Live Preview Section -->
-            <div class="col-md-6 mb-5">
+            <div class="col-md-6 mb-5" style="max-height: 297mm !important;">
                 <h2 class="text-center">Live Preview</h2>
                 <div id="resumePreview" class="p-3 border rounded bg-light">
                     <h3 id="previewName" class="text-center">Dristanta Silwal</h3>
@@ -57,8 +61,49 @@
                     <hr>
                     <h6>Skills</h6>
                     <p id="previewSkills">HTML, CSS, JS, PHP, Python, GIT, GitHub, Heroku, Azure, AWS</p>
+                    <h6>Projects</h6>
+                    <div id="previewProject">
+                        Personal Portfolio
+                        <ol>
+                            <li>Developed a personal portfolio using HTML, CSS, and JavaScript</li>
+                            <li>Hosted the portfolio on GitHub Pages</li>
+                        </ol>
+                        Online Resume Builder
+                        <ol>
+                            <li>Developed an online resume builder using PHP and MySQL</li>
+                            <li>Deployed the application on Heroku</li>
+                        </ol>
+                        Wordle Game
+                        <ol>
+                            <li>Developed a Wordle game using Python and Pygame</li>
+                            <li>Published the game on PyPI</li>
+                        </ol>
+                        Star Wars API
+                        <ol>
+                            <li>Developed a Star Wars API using Node.js and Express.js</li>
+                            <li>Deployed the API on Heroku</li>
+                            <li>Used by 100 people</li>
+                    </div>
                     <h6>Experience</h6>
-                    <div id="previewExperience">Software Developer Intern</div>
+                    <div id="previewExperience" style="margin: 0 !important; padding: 0;">
+                        Software Developer Intern | Google
+                        <ol>
+                            <li>Developed a web application using React.js and Node.js</li>
+                            <li>Implemented a RESTful API for the application</li>
+                            <li>Deployed the application on Heroku</li>
+                        </ol>
+                        Software Developer Intern | Amazon
+                        <ol>
+                            <li>Developed a web application using Angular and Express.js</li>
+                            <li>Implemented a RESTful API for the application</li>
+                            <li>Deployed the application on AWS</li>
+                        </ol>
+                        Software Developer Intern | Microsoft
+                        <ol>
+                            <li>Developed a web application using Vue.js and Django</li>
+                            <li>Implemented a RESTful API for the application</li>
+                            <li>Deployed the application on Azure</li>
+                    </div>
                     <h6>Education</h6>
                     <div id="previewEducation">University of Idaho</div>
                 </div>
@@ -82,6 +127,20 @@
     <script>
         // Initialize Quill.js editors for Experience and Education
         const experienceEditor = new Quill('#experienceEditor', {
+            theme: 'snow',
+            placeholder: '   Describe your professional experience...',
+            modules: {
+                toolbar: [
+                    [{ 'header': [1, 2, false] }],
+                    ['bold', 'italic', 'underline'],
+                    [{ 'list': 'ordered' }, { 'list': 'bullet' }],
+                    ['clean']
+                ]
+            }
+        });
+
+        // Initialize Quill.js editors for Projects
+        const projectEditor = new Quill('#projectEditor', {
             theme: 'snow',
             placeholder: '   Describe your professional experience...',
             modules: {
@@ -121,6 +180,11 @@
             document.getElementById('previewSkills').innerText = this.value || '[Your Skills]';
         });
 
+        // Update Projects in the Live Preview
+        projectEditor.on('text-change', function () {
+            document.getElementById('previewProject').innerHTML = projectEditor.root.innerHTML;
+        });
+
         // Update Experience and Education in the Live Preview
         experienceEditor.on('text-change', function () {
             document.getElementById('previewExperience').innerHTML = experienceEditor.root.innerHTML;
@@ -133,7 +197,7 @@
         document.getElementById('downloadResume').addEventListener('click', function () {
             const fullName = document.getElementById('name').value || 'custom';
             const firstName = fullName.split(' ')[0] || '_resume';
-            
+
             const resumePreview = document.getElementById('resumePreview');
             const options = {
                 margin: 0,
